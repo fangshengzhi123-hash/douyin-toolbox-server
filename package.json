@@ -1,0 +1,21 @@
+{
+  "name": "douyin-toolbox-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "跨平台桌面工具的 Render 云端后端：客户数据 CRUD（PostgreSQL）+ 抖音解析占位接口",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "pg": "^8.12.0"
+  }
+}
